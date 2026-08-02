@@ -6,7 +6,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(message_text)
 
 if __name__ == '__main__':
-    token = '8650379209:AAERfERB8vdklId6qmBdzabtj8t0u1rcQNc' 
+    token = '8650379209:AAFF4HDAmL-F9TME1ImdD6TEaYjd8qzemy4' 
     
     app = ApplicationBuilder().token(token).build()
     app.add_handler(CommandHandler("start", start))
